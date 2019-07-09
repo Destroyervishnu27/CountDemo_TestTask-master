@@ -1,6 +1,7 @@
 package com.vishnu.countdemo;
 
 import android.content.Context;
+import android.support.constraint.ConstraintLayout;
 import android.support.test.InstrumentationRegistry;
 import android.support.test.runner.AndroidJUnit4;
 
@@ -16,6 +17,9 @@ import static org.junit.Assert.*;
  */
 @RunWith(AndroidJUnit4.class)
 public class ExampleInstrumentedTest {
+
+    private ConstraintLayout const_mainLayout;
+
     @Test
     public void useAppContext() {
         // Context of the app under test.
@@ -23,4 +27,13 @@ public class ExampleInstrumentedTest {
 
         assertEquals("com.vishnu.countdemo", appContext.getPackageName());
     }
+
+
+    @Test
+    public void testContinueViewClick() {
+        const_mainLayout.performClick();
+        Config.setTouchCount(5);
+    }
+
+
 }
