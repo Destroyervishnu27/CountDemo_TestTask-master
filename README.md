@@ -28,12 +28,16 @@ General structure. Follow <a href="https://developer.android.com/studio/build/in
  And also, from API 14, the multidex support library is not needed anymore.
 
  # Imporant Topic for project:-
- <a href="https://developer.android.com/studio/projects/create-project">How start New Project in Android Studio</a>
- <a href="https://developer.android.com/reference/android/widget/Button">Button</a>
- <a href="https://developer.android.com/reference/android/view/View.OnClickListener">View.OnClickListener</a>
- <a href="https://developer.android.com/training/data-storage/shared-preferences">Save key-value data</a>
+1.  <a href="https://developer.android.com/studio/projects/create-project">How start New Project in Android Studio</a>
+
+2.  <a href="https://developer.android.com/reference/android/widget/Button">Button</a>
+
+3.  <a href="https://developer.android.com/reference/android/view/View.OnClickListener">View.OnClickListener</a>
+
+4.  <a href="https://developer.android.com/training/data-storage/shared-preferences">Save key-value data</a>
+
 
  # How Project Work:-
  1. Use on click Listener to get Click event oh application screen.
  2. Use Shared preferences to store the value.
- 3. Get last click count from preferences and and increase that count . store again that value in to shared preferences. 
+ 3. Get last click count from preferences and and increase that count . store again that value in to shared preferences.
