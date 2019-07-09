@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Count Demo</string>
+    <string name="touch_count">Touch Count :</string>
+</resources>
