@@ -17,5 +17,7 @@ Although Gradle offers a large degree of flexibility in your project structure, 
 # Gradle configuration
 General structure. Follow Google's guide on Gradle for Android.
 
+<a href="http://www.quora.com/Adam-DAngelo">Quora profile link for Adam D'Angelo</a>
+
 # minSdkVersion: 14
  We recommend to have a look at the Android version usage chart before defining the minimum API required. Remember that the statistics given are global statistics and may differ when targeting a specific regional/demographic market. It is worth mentioning that some material design features are only available on Android 4.0.1 - 4.0.2 (API level 14) and above. And also, from API 14, the multidex support library is not needed anymore.
