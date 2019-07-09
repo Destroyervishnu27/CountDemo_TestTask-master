@@ -26,3 +26,9 @@ General structure. Follow <a href="https://developer.android.com/studio/build/in
  Remember that the statistics given are global statistics and may differ when targeting a specific regional/demographic market.
  It is worth mentioning that some material design features are only available on Android 4.0.1 - 4.0.2 (API level 14) and above.
  And also, from API 14, the multidex support library is not needed anymore.
+
+ # Imporant Topic for project:-
+ <a href="https://developer.android.com/studio/projects/create-project">How start New Project in Android Studio</a>
+ <a href="https://developer.android.com/reference/android/widget/Button">Button</a>
+ <a href="https://developer.android.com/reference/android/view/View.OnClickListener">View.OnClickListener</a>
+ <a href="https://developer.android.com/training/data-storage/shared-preferences">Save key-value data</a>
