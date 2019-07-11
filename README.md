@@ -27,6 +27,22 @@ General structure. Follow <a href="https://developer.android.com/studio/build/in
  It is worth mentioning that some material design features are only available on Android 4.0.1 - 4.0.2 (API level 14) and above.
  And also, from API 14, the multidex support library is not needed anymore.
 
+ # Unit tests that mocks the Android framework
+
+ This project uses the Gradle build system and the Android gradle plugin support for unit testing. You can either benefit from IDEs integration such as Android studio or run the tests on the command line.
+
+ Unit tests run on a local JVM on your development machine. The Android Gradle plugin will compile your app's source code and execute it using gradle test task. Tests are executed against a modified version of android.jar where all final modifiers have been stripped off. This lets you use popular mocking libraries, like Mockito.
+
+ For more information see <a href=" http://tools.android.com/tech-docs/unit-testing-support">http://tools.android.com/tech-docs/unit-testing-support</a>
+
+ # Use Gradle on the command line.
+
+ After downloading the projects code using git clone you'll be able to run the unit tests using the command line:
+
+ ./gradlew test
+
+ If all the unit tests have been successful you will get a BUILD SUCCESSFUL message.
+
  # Imporant Topic for project:-
 1.  <a href="https://developer.android.com/studio/projects/create-project">How start New Project in Android Studio</a>
 
@@ -41,3 +57,5 @@ General structure. Follow <a href="https://developer.android.com/studio/build/in
  1. Use on click Listener to get Click event oh application screen.
  2. Use Shared preferences to store the value.
  3. Get last click count from preferences and and increase that count . store again that value in to shared preferences.
+
+
