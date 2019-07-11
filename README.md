@@ -35,6 +35,19 @@ General structure. Follow <a href="https://developer.android.com/studio/build/in
 
  For more information see <a href=" http://tools.android.com/tech-docs/unit-testing-support">http://tools.android.com/tech-docs/unit-testing-support</a>
 
+
+ # Install the dependencies
+
+testImplementation 'junit:junit:4.12'
+testImplementation 'org.mockito:mockito-core:1.10.19'
+
+ # Junit:
+ It is a “Unit Testing” framework for Java Applications. It is an automation framework for Unit as well as UI Testing. It contains annotations such as @Test, @Before, @After etc.
+
+ # Mockito:
+ Mockito mocks (or fakes) the dependencies required by the class being tested. It provides annotations such as @Mock.
+
+
  # Use Gradle on the command line.
 
  After downloading the projects code using git clone you'll be able to run the unit tests using the command line:
