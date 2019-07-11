@@ -6,7 +6,7 @@ import android.content.SharedPreferences;
 
 /**
  * Created by Vishnu Saini On 09-07-2019.
- *
+ * <p>
  * This class is use to store the preference value .
  * at the time of click on screen we get the touch count from shared preferences and increase the count
  * then store that count again into shared preferences .
@@ -28,7 +28,9 @@ public class Config {
     private static SharedPreferences.Editor editor;
     private static Context mContext;
 
-
+    public Config(SharedPreferences preference) {
+        this.preference = preference;
+    }
 
     /* Initialize preference when application is start */
     public static void init(Context mContext) {
@@ -53,11 +55,10 @@ public class Config {
     }
 
     /* Store Touch Count*/
-    public static void setTouchCount(int count) {
+    public static boolean setTouchCount(int count) {
         editor.putInt(TOUCH_COUNT, count);
-        editor.commit();
+        return editor.commit();
     }
-
 
 
 }
