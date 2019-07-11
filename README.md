@@ -38,9 +38,9 @@ General structure. Follow <a href="https://developer.android.com/studio/build/in
 
  # Install the dependencies
 
-testImplementation 'junit:junit:4.12'
+           testImplementation 'junit:junit:4.12'
 
-testImplementation 'org.mockito:mockito-core:1.10.19'
+           testImplementation 'org.mockito:mockito-core:1.10.19'
 
  # Junit:
  It is a “Unit Testing” framework for Java Applications. It is an automation framework for Unit as well as UI Testing. It contains annotations such as @Test, @Before, @After etc.
