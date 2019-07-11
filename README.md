@@ -39,6 +39,7 @@ General structure. Follow <a href="https://developer.android.com/studio/build/in
  # Install the dependencies
 
 testImplementation 'junit:junit:4.12'
+
 testImplementation 'org.mockito:mockito-core:1.10.19'
 
  # Junit:
